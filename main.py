@@ -49,4 +49,4 @@ def get_link():
         "authorization": "Bearer rnd_a9p5RJRPbp9Y2p7OY2Mhbb99WZM6"
     }
     mb, file_url = bandwidth(head)
-    return RedirectResponse(url=file_url)
+    return RedirectResponse(url=file_url+'/download')
